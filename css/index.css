@@ -1,0 +1,123 @@
+body {
+  max-width: 1000px;
+  font-size:16px;
+  font-family:"Open Sans",Arial,sans-serif;
+  color:#444;
+  margin: auto;
+}
+
+
+/* nav */
+nav {
+  height: auto;
+}
+
+/* nav logo*/
+nav .logo {
+  max-width: 140px;
+
+}
+
+/* nav menu*/
+
+nav .menu {
+  display: flex;
+  padding: 0;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+nav .menu li {
+  float: left;
+}
+
+nav .menu li a {
+  display: block;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav .menu li a:hover {
+    color: orangered;
+}
+
+nav .basket {
+  max-width: 40px;
+  padding: 23px 15px;
+}
+
+/* main */
+main {
+  display: flex;
+}
+
+/* Aside nav */
+aside {
+  width: 600px;
+  background-color: lightyellow;
+}
+aside h4 {
+  background-color: orangered;
+  color:aliceblue;
+  margin: 0;
+  padding: 30px;
+  font-size: 18px;
+}
+aside ul {
+  list-style-type: none;
+}
+aside ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+aside ul li a:hover {
+  color: brown;
+}
+
+/* Products*/
+.content {
+}
+.content .banner {
+  background-image: url(../img/banner.jpg);
+  height: 250px;
+  background-position: center;
+}
+.content h2 {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  padding: 20px 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 5em;
+}
+
+.grid img {
+    width: 100%;
+}
+.grid .box {
+  width: 350px;
+  height: 200px;
+}
+
+.grid .crop-to-fit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
