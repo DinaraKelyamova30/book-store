@@ -1,50 +1,47 @@
 body {
-  max-width: 1000px;
-  font-size:16px;
-  font-family:"Open Sans",Arial,sans-serif;
-  color:#444;
-  margin: auto;
+    max-width: 1000px;
+    font-size: 16px;
+    font-family: "Open Sans",Arial,sans-serif;
+    color: #444;
+    margin: auto;
 }
-
 
 /* nav */
 nav {
-  height: auto;
+    height: auto;
 }
 
 /* nav logo*/
 nav .logo {
-  max-width: 140px;
-
+    max-width: 140px;
 }
 
 /* nav menu*/
-
 nav .menu {
-  display: flex;
-  padding: 0;
-  float: right;
+    display: flex;
+    padding: 0;
+    float: right;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 18px;
 }
 
 nav .menu li {
-  float: left;
+    float: left;
 }
 
 nav .menu li a {
-  display: block;
-  text-align: center;
-  padding: 30px 20px;
-  text-decoration: none;
-  color: #444;
-  font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
 }
 
 nav .menu li a:hover {
@@ -52,78 +49,115 @@ nav .menu li a:hover {
 }
 
 nav .basket {
-  max-width: 40px;
-  padding: 23px 15px;
+    max-width: 40px;
+    padding: 23px 15px;
 }
-
 
 /* main */
 main .main {
-  display: flex;
+    display: flex;
 }
 
 /* Aside nav */
 aside {
-  width: 200px;
-  background-color: lightyellow;
+    width: 200px;
+    background-color: lightyellow;
 }
+
 aside h4 {
-  background-color: orangered;
-  color:aliceblue;
-  margin: 0;
-  padding: 30px;
-  font-size: 18px;
+    background-color: orangered;
+    color: aliceblue;
+    margin: 0;
+    padding: 30px;
+    font-size: 18px;
 }
+
 aside ul {
-  list-style-type: none;
+    list-style-type: none;
 }
+
 aside ul li a {
-  text-decoration: none;
-  color: #444;
-  font-weight: bold;
-  line-height: 40px;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    line-height: 40px;
 }
 
 aside ul li a:hover {
-  color: brown;
+    color: brown;
 }
 
 /* Products*/
 .content .banner {
-  display: flex;
-  background-image: url(../img/banner.jpg);
-  height: 250px;
-  background-position: center;
+    display: flex;
+    background-image: url(../img/banner.jpg);
+    height: 250px;
+    background-position: center;
 }
+
 .content h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .product {
-  box-shadow: 5px 5px 20px lightgray;
-
-
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px lightgray;
 }
+
+.product h5 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.product h4 strong {
+    color: brown;
+    font-size: 18px 0px;
+}
+
+.product a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.product p {
+    padding: 10px;
+}
+
+.product button {
+    display: flex;
+    
+    background:orangered;
+	color: #fff;
+	transition: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.product button:hover {
+    box-shadow: 0 4px gray;
+	top: 2px;
+}
+
 .product .box {
-  width: 250px;
-  height: 200px;
+    width: 250px;
+    height: 200px;
 }
 
-main .product img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-
+main .product img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 15px 15px;
 }
 
-main .product .product-buttons{
+main .product .product-buttons {
     display: flex;
     justify-content: space-around;
 }
 
 @media (min-width: 600px) {
-    main .product-list{
+    main .product-list {
         display: grid;
         grid-template-columns: 1fr ;
         grid-gap: 20px;
@@ -149,31 +183,30 @@ main .product .product-buttons{
 }
 
 .partner h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .partner ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .partner img {
     max-width: 150px;
 }
 
-
 @media (min-width: 600px) {
-    .partner ul{
+    .partner ul {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr  ;
+        grid-template-columns: 1fr 1fr 1fr ;
         grid-gap: 5px;
     }
 }
 
 @media (min-width: 900px) {
-    .partner ul{
+    .partner ul {
         grid-template-columns: 1fr 1fr 1fr 1fr ;
     }
 }
@@ -188,9 +221,11 @@ main .product .product-buttons{
 .contact .grid {
     display: flex;
 }
+
 .contact h2 {
     text-align: center;
 }
+
 .contact ul {
     margin: 0;
     padding: 70px;
@@ -198,21 +233,21 @@ main .product .product-buttons{
 }
 
 .contact ul li {
-  display: block;
-  text-align: center;
-  padding: 0px 50px;
-  text-decoration: none;
-  color: #444;
-  font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 0px 50px;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
 }
 
-.contact ul li a{
-  text-decoration: none;
-  color: orangered;
+.contact ul li a {
+    text-decoration: none;
+    color: orangered;
 }
 
 @media (min-width: 600px) {
-    .contact ul{
+    .contact ul {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 5px;
@@ -220,8 +255,8 @@ main .product .product-buttons{
 }
 
 @media (min-width: 900px) {
-    .contact ul{
-        grid-template-columns: 1fr 1fr ;
+    .contact ul {
+        grid-template-columns: 1fr  ;
     }
 }
 
@@ -232,3 +267,4 @@ main .product .product-buttons{
 }
 
 /* Footer */
+
