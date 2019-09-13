@@ -1,251 +1,271 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Fedorov's Bookstore</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="css/index.css">
+   <title>Fedorov's Bookstore</title>
 </head>
 <body>
-        <header>
-            <!--Nav-->
-            <nav>
-                <a href="index.html">
-                    <img class="logo" src="img/logo.jpg" alt="logo">
-                </a>
-                <ul class="menu">
-                    <li>
-                        <a href="#catalog">Каталог</a>
+       <header>
+           <!--Nav-->
+           <nav>
+               <a href="index.html">
+                   <img class="logo" src="img/logo.jpg" alt="logo">
+               </a>
+               <ul class="menu">
+                   <li>
+                       <a href="#catalog">Каталог</a>
+                   </li>
+                   <li>
+                       <a href="#partners">Видавництва</a>
+                   </li>
+                   <li>
+                       <a href="#contacts">Контакти</a>
+                   </li>
+                   <li>
+                       <img class="basket" src="img/basket.png" alt="backet">
+                   </li>
+               </ul>
+           </nav>
+       </header>
+       <main>
+           <div class="main">
+               <!--Aside nav-->
+               <aside>
+                   <h4>Категорії</h4>
+                   <ul>
+                       <li>
+                           <a href="#design">Дизайн</a>
+                       </li>
+                       <li>
+                           <a href="#art">Мистецтво</a>
+                       </li>
+                   </ul>
+               </aside>
+               <!--Content-->
+               <section id="catalog" class="content">
+                   <div class="banner"></div>
+                   <h2>Каталог книжок</h2>
+                   <!--Products-->
+                   <div class="product-list">
+                       <article class="product">
+                           <a href="/">
+                               <img class="box" src="img/design_logotype.jpg" alt="logotype">
+                           </a>
+                           <a href="/">
+                               <h4 class="">
+                                   <strong>Logotype</strong>
+                               </h4>
+                           </a>
+                           <p>
+                               <b>Видавництво:</b> Laurence King
+                      <br>
+                               <b>Категорія:</b> Графічний дизайн, друкарська справа
+                      <br><b>ISBN:</b> 978-1856698948
+                           </p>
+                           <h5>500 UAN</h5>
+                           <form>
+                               <div>
+                                   <button class="">Додати до кошику</button>
+                               </div>
+                           </form>
+                       </article>
+                       <article class="product">
+                           <a href="/">
+                               <img class="box crop-to-fit" src="img/design_atlas_infographics.jpg" alt="atlas-infographics">
+                           </a>
+                           <a href="/">
+                               <h4 class="">
+                                   <strong>The Atlas of Infographics</strong>
+                               </h4>
+                           </a>
+                           <p class="">
+                               <b>Видавництво:</b> Taschen
+                      <br>
+                               <b>Категорія:</b> Атласи, енциклопедії, словники
+                      <br><b>ISBN:</b> 9783836548830
+                           </p>
+                           <h5>1000 UAN</h5>
+                           <form>
+                               <div>
+                                   <button class="">Додати до кошику</button>
+                               </div>
+                           </form>
+                       </article>
+                       <article class="product">
+                           <a href="/">
+                               <img class="box crop-to-fit" src="img/design_typography_etc.jpg" alt="typography-etc.">
+                           </a>
+                           <a href="/">
+                               <h4 class="">
+                                   <strong>Design, Typography etc.</strong>
+                               </h4>
+                           </a>
+                           <p class="">
+                               <b>Видавництво:</b> Verlag Niggli
+                      <br>
+                               <b>Категорія:</b> Графічний дизайн, друкарська справа
+                      <br><b>ISBN:</b> 9783721209778
+                           </p>
+                           <h5>1500 UAN</h5>
+                           <form>
+                               <div>
+                                   <button class="">Додати до кошику</button>
+                               </div>
+                           </form>
+                       </article>
+                       <article class="product">
+                           <a href="/">
+                               <img class="box" src="img/design_typography_etc.jpg" alt="typography-etc.">
+                           </a>
+                           <a href="/">
+                               <h4 class="">
+                                   <strong>Design, Typography etc.: A Handbook</strong>
+                               </h4>
+                           </a>
+                           <p class="">
+                               <b>Видавництво:</b> Verlag Niggli
+                      <br>
+                               <b>Категорія:</b> Графічний дизайн,друкарська справа
+                      <br>ISBN: 9783721209778
+                           </p>
+                           <h5>500 UAN</h5>
+                           <form>
+                               <div>
+                                   <button class="">Додати до кошику</button>
+                               </div>
+                           </form>
+                       </article>
+                       <article class="product">
+                           <a href="/">
+                               <img class="box" src="img/art_100.jpg" alt="art">
+                           </a>
+                           <a href="/">
+                               <h4 class="">
+                                   <strong>Design, Typography etc.: A Handbook</strong>
+                               </h4>
+                           </a>
+                           <p class="">
+                               <b>Видавництво:</b> Verlag Niggli
+                      <br>
+                               <b>Категорія:</b>Графічний дизайн,друкарська справа
+                      <br><b>ISBN:</b> 9783721209778
+                           </p>
+                           <h5>2500 UAN</h5>
+                           <form>
+                               <div>
+                                   <button class="">Додати до кошику</button>
+                               </div>
+                           </form>
+                       </article>
+                       <article class="product">
+                           <a href="/">
+                               <img class="box" src="img/art_cubism.jpg" alt="cubism">
+                           </a>
+                           <a href="/">
+                               <h4 class="">
+                                   <strong>Design, Typography etc.: A Handbook</strong>
+                               </h4>
+                           </a>
+                           <p class="">
+                               <b>Видавництво:</b> Verlag Niggli
+                      <br>
+                                <b>Категорія:</b> Графічний дизайн,друкарська справа
+                      <br><b>ISBN:</b> 9783721209778
+                           </p>
+                           <h5>500 UAN</h5>
+                           <form>
+                               <div>
+                                   <button class="">Додати до кошику</button>
+                               </div>
+                           </form>
+                       </article>
+                   </div>
+               </section>
+           </div>
+           <!--Paginations-->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
                     </li>
-                    <li>
-                        <a href="#partners">Видавництва</a>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
                     </li>
-                    <li>
-                        <a href="#contacts">Контакти</a>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
                     </li>
-                    <li>
-                        <img class="basket" src="img/basket.png" alt="backet">
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
                     </li>
                 </ul>
             </nav>
-        </header>
-        <main>
-            <div class="main">
-                <!--Aside nav-->
-                <aside>
-                    <h4>Категорії</h4>
-                    <ul>
-                        <li>
-                            <a href="#design">Дизайн</a>
-                        </li>
-                        <li>
-                            <a href="#art">Мистецтво</a>
-                        </li>
-                    </ul>
-                </aside>
-                <!--Content-->
-                <section id="catalog" class="content">
-                    <div class="banner"></div>
-                    <h2>Каталог книжок</h2>
-                    <!--Products-->
-                    <div class="product-list">
-                        <article class="product">
-                            <a href="/">
-                                <img class="box" src="img/design_logotype.jpg" alt="logotype">
-                            </a>
-                            <a href="/">
-                                <h4 class="">
-                                    <strong>Logotype</strong>
-                                </h4>
-                            </a>
-                            <p>
-                                <b>Видавництво:</b> Laurence King
-                       <br>
-                                <b>Категорія:</b> Графічний дизайн, друкарська справа
-                       <br><b>ISBN:</b> 978-1856698948
-                            </p>
-                            <h5>500 UAN</h5>
-                            <form>
-                                <div>
-                                    <button class="">Додати до кошику</button>
-                                </div>
-                            </form>
-                        </article>
-                        <article class="product">
-                            <a href="/">
-                                <img class="box crop-to-fit" src="img/design_atlas_infographics.jpg" alt="atlas-infographics">
-                            </a>
-                            <a href="/">
-                                <h4 class="">
-                                    <strong>The Atlas of Infographics</strong>
-                                </h4>
-                            </a>
-                            <p class="">
-                                <b>Видавництво:</b> Taschen
-                       <br>
-                                <b>Категорія:</b> Атласи, енциклопедії, словники
-                       <br><b>ISBN:</b> 9783836548830
-                            </p>
-                            <h5>1000 UAN</h5>
-                            <form>
-                                <div>
-                                    <button class="">Додати до кошику</button>
-                                </div>
-                            </form>
-                        </article>
-                        <article class="product">
-                            <a href="/">
-                                <img class="box crop-to-fit" src="img/design_typography_etc.jpg" alt="typography-etc.">
-                            </a>
-                            <a href="/">
-                                <h4 class="">
-                                    <strong>Design, Typography etc.</strong>
-                                </h4>
-                            </a>
-                            <p class="">
-                                <b>Видавництво:</b> Verlag Niggli
-                       <br>
-                                <b>Категорія:</b> Графічний дизайн, друкарська справа
-                       <br><b>ISBN:</b> 9783721209778
-                            </p>
-                            <h5>1500 UAN</h5>
-                            <form>
-                                <div>
-                                    <button class="">Додати до кошику</button>
-                                </div>
-                            </form>
-                        </article>
-                        <article class="product">
-                            <a href="/">
-                                <img class="box" src="img/design_typography_etc.jpg" alt="typography-etc.">
-                            </a>
-                            <a href="/">
-                                <h4 class="">
-                                    <strong>Design, Typography etc.: A Handbook</strong>
-                                </h4>
-                            </a>
-                            <p class="">
-                                <b>Видавництво:</b> Verlag Niggli
-                       <br>
-                                <b>Категорія:</b> Графічний дизайн,друкарська справа
-                       <br>ISBN: 9783721209778
-                            </p>
-                            <h5>500 UAN</h5>
-                            <form>
-                                <div>
-                                    <button class="">Додати до кошику</button>
-                                </div>
-                            </form>
-                        </article>
-                        <article class="product">
-                            <a href="/">
-                                <img class="box" src="img/art_100.jpg" alt="art">
-                            </a>
-                            <a href="/">
-                                <h4 class="">
-                                    <strong>Design, Typography etc.: A Handbook</strong>
-                                </h4>
-                            </a>
-                            <p class="">
-                                <b>Видавництво:</b> Verlag Niggli
-                       <br>
-                                <b>Категорія:</b>Графічний дизайн,друкарська справа
-                       <br><b>ISBN:</b> 9783721209778
-                            </p>
-                            <h5>2500 UAN</h5>
-                            <form>
-                                <div>
-                                    <button class="">Додати до кошику</button>
-                                </div>
-                            </form>
-                        </article>
-                        <article class="product">
-                            <a href="/">
-                                <img class="box" src="img/art_cubism.jpg" alt="cubism">
-                            </a>
-                            <a href="/">
-                                <h4 class="">
-                                    <strong>Design, Typography etc.: A Handbook</strong>
-                                </h4>
-                            </a>
-                            <p class="">
-                                <b>Видавництво:</b> Verlag Niggli
-                       <br>
-                                 <b>Категорія:</b> Графічний дизайн,друкарська справа
-                       <br><b>ISBN:</b> 9783721209778
-                            </p>
-                            <h5>500 UAN</h5>
-                            <form>
-                                <div>
-                                    <button class="">Додати до кошику</button>
-                                </div>
-                            </form>
-                        </article>
-                    </div>
-                </section>
-            </div>
-            <!--Partners-->
-            <section id="partners" class="partner">
-                <h2>Видавництва</h2>
-                <ul>
-                    <li>
-                        <img src="img/partners-ad.png" alt="partner-ad">
-                    </li>
-                    <li>
-                        <img src="img/partners-alpina.png" alt="partner-alpina">
-                    </li>
-                    <li>
-                        <img src="img/partners-anova-books.png" alt="partner-anova-books">
-                    </li>
-                    <li>
-                        <img src="img/partners-h.png" alt="partner-h">
-                    </li>
-                    <li>
-                        <img src="img/partners-k.png" alt="partner-k">
-                    </li>
-                    <li>
-                        <img src="img/partners-live.png" alt="partner-live">
-                    </li>
-                    <li>
-                        <img src="img/partners-lviv-politech.png" alt="partner-lviv-politech">
-                    </li>
-                    <li>
-                        <img src="img/partners-random.png" alt="partner-random">
-                    </li>
-                    <li>
-                        <img src="img/partners-schiffer.png" alt="partner-schiffer">
-                    </li>
-                    <li>
-                        <img src="img/partners-the-pepin-press.png" alt="partner-the-pepin-press">
-                    </li>
-                </ul>
-            </section>
-            <!--Contacts-->
-            <section id="contacts" class="contact">
-                <h2>Контакти</h2>
-                <ul class="grid">
-                    <li>
-                        +38 067 573 66 42
-                <br>+38 032 235 54 18
-                    </li>
-                    <li>office@bibliopolis.com.ua</li>
-                    <li>
-                        <a href="https://www.facebook.com/bookstore.on.fedorova/">Facebook</a>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <!--Footer-->
-        <footer>
-            <div class="footer">
-                <p>
-                    "Книгарня на Федорова"
-                 <br>м. Львів, 79000, вул. Ставропігійська,4
-                </p>
-                <p>Copyright 2019, Книгарня на Федорова</p>
-            </div>
-        </footer>
-        <script src="js/index.js"></script>
-    </body>
+           <!--Partners-->
+           <section id="partners" class="partner">
+               <h2>Видавництва</h2>
+               <ul>
+                   <li>
+                       <img src="img/partners-ad.png" alt="partner-ad">
+                   </li>
+                   <li>
+                       <img src="img/partners-alpina.png" alt="partner-alpina">
+                   </li>
+                   <li>
+                       <img src="img/partners-anova-books.png" alt="partner-anova-books">
+                   </li>
+                   <li>
+                       <img src="img/partners-h.png" alt="partner-h">
+                   </li>
+                   <li>
+                       <img src="img/partners-k.png" alt="partner-k">
+                   </li>
+                   <li>
+                       <img src="img/partners-live.png" alt="partner-live">
+                   </li>
+                   <li>
+                       <img src="img/partners-lviv-politech.png" alt="partner-lviv-politech">
+                   </li>
+                   <li>
+                       <img src="img/partners-random.png" alt="partner-random">
+                   </li>
+                   <li>
+                       <img src="img/partners-schiffer.png" alt="partner-schiffer">
+                   </li>
+                   <li>
+                       <img src="img/partners-the-pepin-press.png" alt="partner-the-pepin-press">
+                   </li>
+               </ul>
+           </section>
+           <!--Contacts-->
+           <section id="contacts" class="contact">
+               <h2>Контакти</h2>
+               <ul class="grid">
+                   <li>
+                       +38 067 573 66 42
+               <br>+38 032 235 54 18
+                   </li>
+                   <li>office@bibliopolis.com.ua</li>
+                   <li>
+                       <a href="https://www.facebook.com/bookstore.on.fedorova/">Facebook</a>
+                   </li>
+               </ul>
+           </section>
+       </main>
+       <!--Footer-->
+       <footer>
+           <div class="footer">
+               <p>
+                   "Книгарня на Федорова"
+                <br>м. Львів, 79000, вул. Ставропігійська,4
+               </p>
+               <p>Copyright 2019, Книгарня на Федорова</p>
+           </div>
+       </footer>
+       <script src="js/index.js"></script>
+   </body>
 </html>
